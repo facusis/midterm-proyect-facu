@@ -1,0 +1,41 @@
+
+/* Simplify Section */
+
+.simplify-container {
+    max-width: 110rem;
+    margin: 10rem auto 0 auto;
+}
+
+.simplify-container h2 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.simplify-container p {
+    margin: 5rem 0 10rem 0;
+    font-size: 1.5rem;
+    color: grey;
+    
+}
+
+.simplify-container img {
+    width: 100%;
+    height: 45rem;
+    object-fit: cover;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5); /* Sombras */
+
+}
+
+.simplify-container-div {
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+/* Projects Section */
+
+.projects-1 img {
+    height: 263.38px;
+    object-fit: cover;
+ }
