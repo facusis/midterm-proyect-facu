@@ -38,10 +38,18 @@ body {
    display: inline-block;
 }
 
+.btn:hover {
+   background-color: white;
+   border: 1px solid blue;
+   color: blue;
+   font-weight: 700;
+
+}
+
 
 /* Header */
 .header {
-   padding-top: 70px;
+   padding-top: 7rem;
    margin: 0 auto;
 }
 
@@ -166,6 +174,10 @@ body {
 
 }
 
+.btn-cta-section {
+   cursor: pointer;
+}
+
 /* Footer */ 
 
 .footer-container {
@@ -208,5 +220,95 @@ body {
 .footer-nav a {
    text-decoration: none;
    margin: 0 8rem 0 0;
+
+}
+
+
+/* RESPONSIVE */
+
+@media ( max-width: 468px) {
+
+   /* --- GENERALES --- */
+   .btn {
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+   }
+   
+   .nav-logo {
+      width: 5.5rem;
+      height: auto;
+   }
+   
+   .nav-principal {
+      font-size: 1.1rem;
+      width: auto;
+      align-items: center;
+      margin: 0 2rem;
+   }
+   
+   .menu {
+      width: auto;
+      gap: 1.2rem;
+   }
+   
+   /* Footer */ 
+
+   .footer-container {
+      width: auto;
+      margin: 0 auto;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+   }
+
+   .footer-info {
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font-size: 1.3rem;
+      align-items: center;
+      margin-bottom: 5rem;
+
+   }
+
+   .footer-info img {
+      text-align: center;
+      width: 10rem;
+   
+   }
+
+   .footer-info p {
+      margin: 1.5rem 0 0 0;
+      color: grey;
+   }
+
+   .footer-info p:first-of-type {
+      margin-top: 4rem;
+  }
+  
+   .footer-nav {
+      padding: 0;
+   }
+
+   .footer-nav-div a {
+      display: flex;
+      justify-content: center;
+   }
+
+   .footer-nav a {
+      text-decoration: none;
+      margin: 0 auto 1rem auto;
+   }
+
+
+}
+
+@media ( min-width: 469px) and (max-width: 1023px) {
+
+   .services a:hover {
+      color: orange;
+   }
 
 }

@@ -244,9 +244,15 @@
 
 @media ( max-width: 468px) {
 
+   
+
 }
 
-@media ( max-width: 469px) and (min-width: 1023px) {
+@media ( min-width: 469px) and (max-width: 1023px) {
+
+   .services a:hover {
+      color: orange;
+   }
 
 }
 

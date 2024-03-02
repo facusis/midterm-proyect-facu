@@ -1,0 +1,129 @@
+
+/* -------- Contac Us -------- */
+
+.contact-us {
+    margin-bottom: 30rem;
+}
+
+.contact-us h2 {
+    font-size: 4rem;
+    margin: 15rem 0 10rem 0;
+}
+
+.contact-us-container {
+    max-width: 110rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-us-container label {
+    font-size: 1.5rem;
+    margin: 0;
+    color: grey;
+}
+
+.contact-us-container input{
+    background-color: #e6e9f1;
+    padding: 2rem 2rem;
+    border: none;
+    width: 100%;
+    margin: 1rem 0 5rem 0;
+    box-sizing: border-box;
+
+}
+
+.contact-us-container textarea{
+    background-color: #e6e9f1;
+    padding: 2rem 2rem;
+    border: none;
+    width: 100%;
+    margin: 1rem 0 5rem 0;
+    box-sizing: border-box;
+    resize: none;
+
+}
+
+.form-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-basis: content;
+    gap: 3rem;
+}
+
+.form-field {
+    flex: 1;
+}
+
+.btn-contact {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Validacion */
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+    margin-bottom: 5rem;
+    color: red;
+    font-weight: 800;
+}
+
+.input-email {
+    border: 1px solid red;
+}
+
+@media ( max-width: 468px) {
+
+    .contact-us {
+        margin-bottom: 20rem;
+    }
+    
+    .contact-us h2 {
+        font-size: 3rem;
+        margin: 10rem 0 5rem 0;
+    }
+    
+    .contact-us-container {
+        margin: 0 3rem;
+        
+    }
+    
+    .contact-us-container label {
+        font-size: 1.2rem;
+    }
+    
+    .contact-us-container input{
+        padding: 1.5rem 1.5rem;
+        margin-bottom: 3rem;
+    
+    }
+
+    .contact-us-container input::placeholder {
+        font-size: 1.1rem;
+    }
+    
+    .contact-us-container textarea{
+        margin: 1rem 0 3rem 0;
+        height: 15rem;
+    }
+    
+    .form-container {
+        display: inline;
+        gap: 3rem;
+    }
+
+}
+
+/* 
+poner modal es un div con position fixed, cuadrandola y diseñar el mensaje. poner boton x con propiedad visible.
+div general para poner oscuro y dentro otro div con la modal en si.
+
+
+*/
