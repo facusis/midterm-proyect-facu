@@ -1,6 +1,5 @@
-MidTerm Project IronHack
+MidTerm Project IronHack!
 Bienvenidos al repositorio del proyecto de mitad de curso de IronHack. Este es un proyecto web diseñado para consolidar los conocimientos necesarios para convertirse en un desarrollador front-end competente. A través de este proyecto, exploraremos los fundamentos del desarrollo web, incluyendo HTML, CSS y JavaScript, y cómo estos se unen para crear una experiencia web interactiva y agradable.
-
 Este proyecto es una página web creada como parte del curso desarollo front-end de IronHack. Su objetivo principal es aplicar y demostrar las habilidades adquiridas en HTML, CSS y JavaScript, proporcionando una base sólida para futuros proyectos. 
 Es una excelente oportunidad para ver cómo los conceptos teóricos se aplican en un escenario del mundo real.
 
@@ -31,4 +30,4 @@ Push a la Branch (git push origin feature/AmazingFeature).
 Abre una Pull Request.
 
 Autores
-Facundo Sara - Trabajo Inicial - FacundoSara
+Facundo Sara - 
